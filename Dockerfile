@@ -1,3 +1,3 @@
 FROM nginx:alpine
 RUN mkdir /app
-COPY . /
+COPY index.html
